@@ -1,0 +1,6 @@
+framework module Pods_JustEatIt {
+  umbrella header "Pods-JustEatIt-umbrella.h"
+
+  export *
+  module * { export * }
+}
