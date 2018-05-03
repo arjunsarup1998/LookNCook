@@ -8,3 +8,9 @@ Now, when we finally click on search, the app displays a list of matching ingred
 Ok, so once you click on a recipe you like, it displays what your food will look like along with ingredients you require to make it. The back button allows you to go back to the ingredients searcher, and the download button will allow you to save your recipe for offline storage. I am still working on the latter functionality, and was going to use core data to implement it. 
 
 So, yeah that’s it. Happy looking!
+
+Screenshots:
+
+![ScreenShot](https://i.imgur.com/Mdl7nsa.png)
+![ScreenShot](https://i.imgur.com/TRKulX4.png)
+![ScreenShot](https://i.imgur.com/7voUoaG.png)
