@@ -71,8 +71,8 @@ class IngredientsViewController: UIViewController, UITableViewDelegate, UITableV
         input.replacingOccurrences(of: " ", with: "")
         if let url = URL(string: "https://trackapi.nutritionix.com/v2/search/instant?query=\(input)") {
         var request = URLRequest(url: url)
-        request.addValue("5c215646", forHTTPHeaderField: "x-app-id")
-        request.addValue("109e57f5dec72486da663b5dbacbcbec", forHTTPHeaderField: "x-app-key")
+        request.addValue("b517c761", forHTTPHeaderField: "x-app-id")
+        request.addValue("84a7d4eba60a8530fc6f9b6c70bdba55", forHTTPHeaderField: "x-app-key")
         let task = session.dataTask(with: request, completionHandler: {
             (data, response, error) -> Void in
             if error == nil {
